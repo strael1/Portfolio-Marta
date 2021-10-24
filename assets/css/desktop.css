@@ -1,0 +1,160 @@
+/*
+    New Perspectives on HTML5 and CSS3
+    Portfolio 7
+    Case Problem 1
+
+    Create a beautiful Portfolio
+    Author: Marta Siqueira
+    Date:   
+
+    Filename:  desktop.css
+*/
+
+@media only screen and (min-width: 1020px) {    
+    /* Display the desktop version */
+    .mobile {
+        display: flex!important;
+    }
+
+    /* Hidden the mobile version */
+    .desktop {
+        display: none!important;
+    }
+
+    .container {
+        margin: auto;
+        width: 70%!important;
+    }
+
+    .main__header {
+        background: #141313; 
+        padding: 15px 0;  
+        opacity: 0.9;
+    }
+
+    .main__list {
+        display: block!important;
+        display: flex!important;
+    }
+
+    .main__list li {
+        padding-left: 15px!important;
+        color: #fff;
+    }
+
+    .main__list li a {
+        color: #fff;
+    }
+
+    .main__header .text-styled-logo {
+        color: #C0A657;    
+        font-weight: 100;
+        margin: 0;
+        font-size: 35px!important;
+        margin-top: 10px!important;
+    }
+
+    .image-1 {
+        background-image: url('../images/slides/01.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .image-2 {
+        background-image: url('../images/slides/02.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .image-3 {
+        background-image: url('../images/slides/03.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+
+    .text-banner {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 100!important;
+        font-size: 70px;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding-top: 400px;
+        text-shadow: 1px 1px 0 #000;
+    }
+
+    .wt-100 {
+        width: 140px!important;
+    }
+
+    .pt-103-desktop {
+        padding-top: 103px;
+    }
+
+    .pt-desktop-180 {
+        padding-top: 180px!important;
+    }
+
+    .about-history {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-history img {
+        width: 100%!important;
+    }
+
+    .history-title-desktop {
+        text-align: center; 
+        font-size: 55px!important;
+        margin-bottom: 10!important;
+        margin-top: 100px!important;
+    }
+
+    .history-title-desktop {
+        text-align: center!important;
+    }
+
+    .text-justify-desktop {
+        text-align-last: center;
+        width: 700px;
+        margin: auto;
+    }
+
+    .d-grid-desktop-3 {
+        display: grid!important;
+        grid-template-columns: 1fr 1fr 1fr!important;
+    }
+
+    .text-left-desktop {
+        text-align: left!important;
+    }
+
+    .contact-info-desktop {
+        margin: auto;
+        width: 55%!important;
+    }
+
+    .main__footer div {
+        display: flex!important;
+        justify-content: center!important;
+    }
+
+    .separate-item-1,
+    .separate-item-2,
+    .separate-item-3,
+    .separate-item-4 {
+        margin-left: 20px!important;
+    }
+}
+
+
+
+
+
