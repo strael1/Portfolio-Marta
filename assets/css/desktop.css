@@ -59,7 +59,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 100vh!important;
     }
 
     .image-2 {
@@ -67,7 +67,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 100vh!important;
     }
 
     .image-3 {
@@ -75,7 +75,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 100vh!important;
     }
 
     .text-banner {
